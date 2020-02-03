@@ -1,0 +1,115 @@
+.Shopping-cart{
+    padding: 5%;
+}
+.Shopping-cart button {
+    margin-top: 50px;
+    
+}
+
+.Shopping-cart .back {
+    margin-right: 49%;
+}
+
+
+
+
+.Cart-box {
+    
+    margin-top: 50px; 
+        box-shadow:4px 4px 6px 4px #888888;
+
+
+   
+}
+
+.Cart-box table {
+    width: 1350px;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+
+}
+
+.Cart-box table, tr, th, td {
+    padding: 20px;
+    color:black;
+    
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+.Cart-box thead {
+    background-color: #D3D3D3;
+    
+    
+} 
+
+.Cartfoot  { 
+height: 70px;
+background-color: #D3D3D3;
+color: white;
+line-height: 70px;
+width: 1350px
+
+}
+
+table td span, .cart-product-img  {
+    height: 60px;
+    width: 80px;
+    margin: 10px;
+    
+}
+
+table td span, .cart-product-img {
+    display: flex;
+
+}
+
+span {
+    margin-right: 1.25em;
+}
+.del-btn {
+    background-color:transparent;
+    border:20px;
+    font-weight: 800;
+    color: red;
+    font-size: 30px;
+   
+   
+}
+.del-btn:hover{
+   
+    color: grey;
+    
+}
+.back{
+    border:20px;
+    font-weight: 600;
+    background-color: #2a65ea;
+    color: white;
+    padding: 14px;
+}
+.proceed {
+    border:20px;
+    font-weight: 600;
+    background-color: #2a65ea;
+    color: white;
+    padding: 14px;
+
+}
+
+.proceed:hover{
+    background-color: white;
+    color:#2a65ea ;
+    border:1px solid;
+    border-color: #2a65ea;
+}
+
+.back:hover{
+    background-color: white;
+    color:#2a65ea ;
+    border:1px solid;
+    border-color: #2a65ea;
+}

@@ -1,0 +1,18 @@
+/* a.nav-link {
+    font-weight: bold;
+
+    letter-spacing: 3px;
+    color: white;
+} */
+
+.navbar-brand {
+    letter-spacing: 4px;
+    font-weight: bold;
+    color:"#F3F3F3";
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+/* a.nav-link {
+    color: white!important;
+} */

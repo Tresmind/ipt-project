@@ -1,0 +1,42 @@
+.main-body {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+.proCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+}
+
+.main-body {
+    margin-top: 150px;
+}
+
+.ad , .ad-two {
+    border: 1px solid #999999;
+}
+
+.ad-img {
+    width: 150px;
+    height: 650px;
+}
+
+
+ .pagi {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.pagination .page-item .page-link{
+    color: white;
+    background-color: #2E8ECD;
+    border: 1px solid #2E8ECD;
+}
+
+ .page-item,.page-link:hover{
+    background: white;
+    color: #2E8ECD;
+}

@@ -1,0 +1,56 @@
+.nav-bar {
+    overflow: hidden;
+  background-color: #e9e9e9;
+  
+   
+
+}
+.nav-bar li{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    padding: 14px 16px;
+}
+.nav-bar li button {
+    
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: #4CAF50;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    margin-right: 50%;
+    float: left;
+    
+}
+.nav-search{
+    float: right;
+    position: relative;
+    left: 40%;
+    border: 1px solid ;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 15px 250px;
+   
+ 
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  text-align: left;
+  opacity: 1; /* Firefox */
+}
+.nav-right{
+  float: right;
+}

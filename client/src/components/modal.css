@@ -1,0 +1,44 @@
+.modal-body{
+    position: relative;
+    left: 22%;
+}
+
+.kep-login-facebook{
+    font-size: 16px;
+    padding: 1px;
+}
+
+.my-facebook-button-class {
+   border : 20px;
+   background-color: #4267B2;
+   padding: 10px;
+   color: white;
+   font-weight: bold; 
+   width: 205px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+   
+}
+.my-facebook-button-class:hover {
+    background-color: white;
+   color: #4267B2;
+   border: 1px solid;
+  border-color:#4267B2;
+}
+.google-custom-btn{
+    border : 20px;
+    background-color: #D44638;
+    padding: 10px;
+    color: white;
+    font-weight: bold; 
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 205px;
+}
+
+.google-custom-btn:hover{
+    background-color: white;
+    color: #D44638;
+    border: 1px solid;
+   border-color:#D44638;
+}

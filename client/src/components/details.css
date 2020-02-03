@@ -1,0 +1,127 @@
+.main-box{
+    width: 68%;
+    height: 100%;
+    padding: 50px;
+    border: 1px solid #D3D3D3;
+    float: left;
+    
+}
+
+
+.sub-box{
+    width: 30%;
+    height: 100%;
+    border: 1px solid #D3D3D3;
+    float: right;
+    margin-bottom: 10px;
+}
+.sub-box .price{
+   text-align: left;
+    
+   padding:10px
+    
+}
+.sub-box .title {
+    text-align: left;
+    padding:10px;
+    font-size: 20px;
+}
+.sub-box .bottom-el {
+ padding :10px;
+ font-size: 18px;
+}
+
+.sub-box h3 {
+    text-align: left;
+    padding : 10px
+}
+.sub-box .seller-title{
+    padding: 10px;
+
+}
+.sub-box .seller-title h5{
+    text-align: left;
+    padding: 10px;
+
+}
+.sub-box .seller-title .ava {
+    display: inline-flex;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #2a65ea;
+}
+
+.sub-box .chat-btn button{
+    background: #2a65ea;
+    border: 0px;
+    padding:10px;
+    margin-bottom: 10px;
+    width: 60%;
+    color:white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+.sub-box .chat-btn button:hover{
+    background:  #002f34;
+}
+.sub-box .sell-num{
+    padding: 10px;
+    font-size: 25px;
+}
+.sub-box .mapp{
+    width: auto;
+     height:auto; 
+    border: 0px;
+}
+
+.main-box-2{
+    width: 68%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #D3D3D3;
+    float: left;
+    margin-top: 10px;
+    
+}
+.main-box-2 h2 {
+    text-align: left;
+}
+
+.main-box-2 .data{
+    width: 15%;
+    text-align: left;
+
+}
+.main-box-2 .att td{
+    margin-left: 10px;
+   
+    text-align: left;
+}
+
+.sub-box .add-to-cart {
+    align-content: left;
+    display: initial;
+}
+
+.add-to-cart input{
+    
+    padding: 4px;
+    width:10%;
+    margin: 10px;
+   
+}
+
+.add-to-cart button{
+    border: 20px;
+    background-color: #2a65ea;
+    padding: 6px;
+    border-radius: 1px;
+    color: white;
+    font-weight:600;
+}
+.add-to-cart .add-to-cart-btn:hover{
+    background-color: #002f34;
+}

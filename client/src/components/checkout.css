@@ -1,0 +1,83 @@
+.checkout{
+    background-color:white;
+}
+.checkout-main {
+    display: grid;
+    
+    grid-template-columns:60% 38% ;
+    grid-gap:30px;
+    background-color:white;
+    margin: 50px 25px 50px 20px;
+   
+    
+}   
+.main-Form{
+    background-color: white;
+    box-shadow:4px 4px 6px 4px #888888;
+}
+.main-summary{
+    background-color: white;
+    box-shadow:4px 4px 6px 4px #888888;
+}
+.checkout-main > div {
+    border: 1px #a6acaf  solid;
+}
+.main-Form h4{
+    text-align: left;
+    padding: 6px;
+}
+.main-Form ul {
+    float: left;
+}
+.main-Form ul li{
+    list-style: none;
+}
+.main-Form form ul li label{
+    padding: 6px;
+    float: left;
+}
+.main-Form form ul li input{
+    width: 600px;
+    padding: 6px;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: #a6acaf;
+}
+.main-summary h4 {
+    text-align: left;
+    padding: 4px;
+}
+.main-summary ul li{
+    list-style: none;
+}
+.main-summary  ul li label{
+    padding: 6px;
+    float: left;
+}
+.main-summary  ul li input{
+    width: 500px;
+    padding: 6px;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: #a6acaf;
+}
+
+.checkout-btn {
+    margin-top: 40px;
+    padding: 10px;
+    border:20px;
+    background-color: #2a65ea;
+    color: white;
+}
+.checkout-btn:hover{
+    background-color: white;
+    color:#2a65ea ;
+    border:1px solid;
+    border-color: #2a65ea;
+}
+.pics {
+    margin-top: 30%;
+}
+.cardnum {
+    margin-top: 40px;
+}

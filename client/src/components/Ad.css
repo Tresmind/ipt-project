@@ -1,0 +1,25 @@
+.form-ad{
+     width: 50%;
+    height: auto;
+    padding: 50px; 
+    border: 1px solid #D3D3D3;
+    box-shadow: 5px 5px 5px 10px #D3D3D3;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+.form-ad label{
+  float: left;
+  color: black !important;
+}
+
+
+
+button.btn-default.btn.Ripple-parent.submit-button {
+  color: white!important;
+  background-color: #2E8ECD!important;
+}
+
+button.btn-default.btn.Ripple-parent.submit-button:hover {
+  color:  #2E8ECD!important;
+  background-color: #E7E7E7!important;
+}
